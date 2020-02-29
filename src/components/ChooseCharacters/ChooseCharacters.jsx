@@ -113,11 +113,25 @@ class ChooseCharacters extends Component {
       show.splice(idx, 1);
     else
       show.push(whichKana)
+    if(postfix == '_d')
+      this.setState({showAlternatives: show});
+    if(postfix == '_h')
+      this.setState({showAlternatives: show});
+    if(postfix == '_dh')
+      this.setState({showAlternatives: show});
     if(postfix == '_a')
       this.setState({showAlternatives: show});
     if(postfix == '_s')
+      this.setState({showAlternatives: show});
+    if(postfix == '_e')
       this.setState({showSimilars: show});
   }
+
+
+
+
+
+
 
   getSelectedAlternatives(whichKana, postfix) {
     return this.state.selectedGroups.filter(groupName => {
@@ -163,9 +177,34 @@ class ChooseCharacters extends Component {
           : <span className="toggle-caret">&#9660;</span>
       }
       {
-        postfix == '_a' ? 'Alternative characters (ga · ba · kya..)' :
-          'Look-alike characters'
+        postfix == '_d' ? 'Dakuten characters (ga · za · da..)' :
+          ''
       }
+      {
+        postfix == '_h' ? 'Handakuten characters (ka · sa · ta..)' :
+          ''
+      }
+      {
+        postfix == '_dh' ? 'Dakuten+handakuten characters (ða · ði · ðu..)' :
+          ''
+      }
+      {
+        postfix == '_a' ? 'Yoon digraph characters (kja · sja · cja..)' :
+          ''
+      }
+      {
+        postfix == '_s' ? 'Similar-looking characters (sji · tsu · so..)' :
+          ''
+      }
+      {
+        postfix == '_e' ? 'Extra characters (fa · wi · tsa..)' :
+          ''
+      }
+
+
+
+
+
     </div>
   }
 
@@ -173,13 +212,35 @@ class ChooseCharacters extends Component {
     const thisKana = kanaDictionary[whichKana];
     let rows = [];
     Object.keys(thisKana).forEach((groupName, idx) => {
-      if(groupName == "h_group11_a" || groupName == "k_group13_a")
+
+
+
+      if(groupName == "h_group11_d" || groupName == "k_group11_d")
+        rows.push(this.alternativeToggleRow(whichKana, "_d", showAlternatives));
+
+      if(groupName == "h_group18_h" || groupName == "k_group18_h")
+        rows.push(this.alternativeToggleRow(whichKana, "_h", showAlternatives));
+
+      if(groupName == "h_group23_dh" || groupName == "k_group23_dh")
+        rows.push(this.alternativeToggleRow(whichKana, "_dh", showAlternatives));
+
+      if(groupName == "h_group24_a" || groupName == "k_group24_a")
         rows.push(this.alternativeToggleRow(whichKana, "_a", showAlternatives));
-      if(groupName == "k_group11_s")
+
+      if(groupName == "k_group41_s")
         rows.push(this.alternativeToggleRow(whichKana, "_s", showSimilars));
 
-      if((!groupName.endsWith("a") || showAlternatives) &&
-        (!groupName.endsWith("s") || showSimilars)) {
+      if(groupName == "k_group43_e")
+        rows.push(this.alternativeToggleRow(whichKana, "_e", showAlternatives));
+
+
+      if(
+        (!groupName.endsWith("d") || showAlternatives) &&
+        (!groupName.endsWith("h") || showAlternatives) &&
+        (!groupName.endsWith("dh") || showAlternatives) &&
+        (!groupName.endsWith("a") || showAlternatives) &&
+        (!groupName.endsWith("s") || showAlternatives) &&
+        (!groupName.endsWith("e") || showSimilars)) {
         rows.push(<CharacterGroup
           key={idx}
           groupName={groupName}
