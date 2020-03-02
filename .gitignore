@@ -1,7 +1,0 @@
-/node_modules/
-/dist/
-/dev_content/
-.vscode/
-deldist.bat
-.env
-.DS_Store
