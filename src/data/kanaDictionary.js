@@ -3,8 +3,8 @@ export const kanaDictionary = {
 		'h_group1': { characters: { 'あ': ['a'], 'い': ['i'], 'う': ['u'], 'え': ['e'], 'お': ['å'] } },
 
 		'h_group2': { characters: { 'か': ['ka'], 'き': ['ki'], 'く': ['ku'], 'け': ['ke'], 'こ': ['kå'] } },
-		'h_group3': { characters: { 'さ': ['sa'], 'し': ['sji','si'], 'す': ['su'], 'せ': ['se'], 'そ': ['så'] } },
-		'h_group4': { characters: { 'た': ['ta'], 'ち': ['ci','chi','tsji','ti'], 'つ': ['tsu','tu'], 'て': ['te'], 'と': ['tå'] } },
+		'h_group3': { characters: { 'さ': ['sa'], 'し': ['sji','ʃi','si'], 'す': ['su'], 'せ': ['se'], 'そ': ['så'] } },
+		'h_group4': { characters: { 'た': ['ta'], 'ち': ['ci','chi','tsji','tʃi','ti'], 'つ': ['tsu','tu'], 'て': ['te'], 'と': ['tå'] } },
 		'h_group5': { characters: { 'な': ['na'], 'に': ['ni'], 'ぬ': ['nu'], 'ね': ['ne'], 'の': ['nå'] } },
 		'h_group6': { characters: { 'は': ['ha'], 'ひ': ['hi'], 'ふ': ['fu','hu'], 'へ': ['he'], 'ほ': ['hå'] } },
 		'h_group7': { characters: { 'ま': ['ma'], 'み': ['mi'], 'む': ['mu'], 'め': ['me'], 'も': ['må'] } },
@@ -14,7 +14,7 @@ export const kanaDictionary = {
 
 		'h_group11_d': { characters: { 'が': ['ga'], 'ぎ': ['gi'], 'ぐ': ['gu'], 'げ': ['ge'], 'ご': ['gå'] } },
 		'h_group12_d': { characters: { 'ざ': ['za'], 'じ': ['ji','zi'], 'ず': ['zu','du'], 'ぜ': ['ze'], 'ぞ': ['zå'] } },
-		'h_group13_d': { characters: { 'だ': ['da'], 'ぢ': ['ji','di','dzi'], 'づ': ['zu','dzu'], 'で': ['de'], 'ど': ['då'] } },
+		'h_group13_d': { characters: { 'だ': ['da'], 'ぢ': ['dji','di','dzi'], 'づ': ['zu','dzu'], 'で': ['de'], 'ど': ['då'] } },
 		'h_group14_d': { characters: { 'ば': ['ba'], 'び': ['bi'], 'ぶ': ['bu'], 'べ': ['be'], 'ぼ': ['bå'] } },
 		'h_group15_d': { characters: { 'ま゙': ['fa'], 'み゙': ['fi'], 'む゙': ['fu'], 'め゙': ['fe'], 'も゙': ['få'] } },
 		'h_group16_d': { characters: { 'ら゙': ['ra'], 'り゙': ['ri'], 'る゙': ['ru'], 'れ゙': ['re'], 'ろ゙': ['rå'] } },
@@ -22,17 +22,17 @@ export const kanaDictionary = {
 
 		'h_group18_h': { characters: { 'か゚': ['ŋa','nga'], 'き゚': ['ŋi','ngi'], 'く゚': ['ŋu','ngu'], 'け゚': ['ŋe','nge'], 'こ゚': ['ŋå','ngå'] } },
 		'h_group19_h': { characters: { 'さ゚': ['ꜩa','tsa'], 'し゚': ['ꜩi','tsi'], 'す゚': ['ꜩu','tsu'], 'せ゚': ['ꜩe','tse'], 'そ゚': ['ꜩå','tså'] } },
-		'h_group20_h': { characters: { 'た゚': ['ca','tsja'], 'ち゚': ['ci','tsji'], 'つ゚': ['cu','tsju'], 'て゚': ['ce','tsje'], 'と゚': ['cå','tsjå'] } },
+		'h_group20_h': { characters: { 'た゚': ['ca','tsja','tʃa'], 'ち゚': ['ci','tsji','tʃi'], 'つ゚': ['cu','tsju','tʃu'], 'て゚': ['ce','tsje','tʃe'], 'と゚': ['cå','tsjå','tʃå'] } },
 		'h_group21_h': { characters: { 'ぱ': ['pa'], 'ぴ': ['pi'], 'ぷ': ['pu'], 'ぺ': ['pe'], 'ぽ': ['på'] } },
 		'h_group22_h': { characters: { 'ら゚': ['la'], 'り゚': ['li'], 'る゚': ['lu'], 'れ゚': ['le'], 'ろ゚': ['lå'] } },
 
-		'h_group23_dh': { characters: { 'ざ゚': ['ða','tha'], 'じ゚': ['ði','thi'], 'ず゚': ['ðu','thu'], 'ぜ゚': ['ðe','the'], 'ぞ゚': ['ðå','thå'] } },
+		'h_group23_dh': { characters: { 'ざ゚': ['ða','þa','θa','tha'], 'じ゚': ['ði','þi','θi','thi'], 'ず゚': ['ðu','þu','θu','thu'], 'ぜ゚': ['ðe','þe','θe','the'], 'ぞ゚': ['ðå','þå','θå','thå'] } },
 
 
 
 		'h_group24_a': { characters: { 'きゃ': ['kja'], 'きゅ': ['kju'], 'きょ': ['kjå'] } },
-		'h_group25_a': { characters: { 'しゃ': ['sja'], 'しゅ': ['sju'], 'しょ': ['sjå'] } },
-		'h_group26_a': { characters: { 'ちゃ': ['tsja'], 'ちゅ': ['tsju'], 'ちょ': ['tsjå'] } },
+		'h_group25_a': { characters: { 'しゃ': ['sja','ʃa'], 'しゅ': ['sju','ʃu'], 'しょ': ['sjå','ʃå'] } },
+		'h_group26_a': { characters: { 'ちゃ': ['tsja','tʃa'], 'ちゅ': ['tsju','tʃu'], 'ちょ': ['tsjå','tʃå'] } },
 		'h_group27_a': { characters: { 'にゃ': ['nja'], 'にゅ': ['nju'], 'にょ': ['njå'] } },
 		'h_group28_a': { characters: { 'ひゃ': ['hja'], 'ひゅ': ['hju'], 'ひょ': ['hjå'] } },
 		'h_group29_a': { characters: { 'みゃ': ['mja'], 'みゅ': ['mju'], 'みょ': ['mjå'] } },
@@ -56,8 +56,8 @@ export const kanaDictionary = {
 		'k_group1': { characters: { 'ア': ['a'], 'イ': ['i'], 'ウ': ['u'], 'エ': ['e'], 'オ': ['å'] } },
 
 		'k_group2': { characters: { 'カ': ['ka'], 'キ': ['ki'], 'ク': ['ku'], 'ケ': ['ke'], 'コ': ['kå'] } },
-		'k_group3': { characters: { 'サ': ['sa'], 'シ': ['sji','si'], 'ス': ['su'], 'セ': ['se'], 'ソ': ['så'] } },
-		'k_group4': { characters: { 'タ': ['ta'], 'チ': ['tsji','ti'], 'ツ': ['tsu','tu'], 'テ': ['te'], 'ト': ['tå'] } },
+		'k_group3': { characters: { 'サ': ['sa'], 'シ': ['sji','ʃi','si'], 'ス': ['su'], 'セ': ['se'], 'ソ': ['så'] } },
+		'k_group4': { characters: { 'タ': ['ta'], 'チ': ['tsji','ʃi','ti'], 'ツ': ['tsu','tu'], 'テ': ['te'], 'ト': ['tå'] } },
 		'k_group5': { characters: { 'ナ': ['na'], 'ニ': ['ni'], 'ヌ': ['nu'], 'ネ': ['ne'], 'ノ': ['nå'] } },
 		'k_group6': { characters: { 'ハ': ['ha'], 'ヒ': ['hi'], 'フ': ['fu','hu'], 'ヘ': ['he'], 'ホ': ['hå'] } },
 		'k_group7': { characters: { 'マ': ['ma'], 'ミ': ['mi'], 'ム': ['mu'], 'メ': ['me'], 'モ': ['må'] } },
@@ -67,7 +67,7 @@ export const kanaDictionary = {
 
 		'k_group11_d': { characters: { 'ガ': ['ga'], 'ギ': ['gi'], 'グ': ['gu'], 'ゲ': ['ge'], 'ゴ': ['gå'] } },
 		'k_group12_d': { characters: { 'ザ': ['za'], 'ジ': ['ji','zi'], 'ズ': ['zu','du'], 'ゼ': ['ze'], 'ゾ': ['zå'] } },
-		'k_group13_d': { characters: { 'ダ': ['da'], 'ヂ': ['ji','di','dzi'], 'ヅ': ['zu','dzu'], 'デ': ['de'], 'ド': ['då'] } },
+		'k_group13_d': { characters: { 'ダ': ['da'], 'ヂ': ['dji','di','dzi'], 'ヅ': ['zu','dzu'], 'デ': ['de'], 'ド': ['då'] } },
 		'k_group14_d': { characters: { 'バ': ['ba'], 'ビ': ['bi'], 'ブ': ['bu'], 'ベ': ['be'], 'ボ': ['bå'] } },
 		'k_group15_d': { characters: { 'マ゙': ['fa'], 'ミ゙': ['fi'], 'ム゙': ['fu'], 'メ゙': ['fe'], 'モ゙': ['få'] } },
 		'k_group16_d': { characters: { 'ラ゙': ['ra'], 'リ゙': ['ri'], 'ル゙': ['ru'], 'レ゙': ['re'], 'ロ゙': ['rå'] } },
@@ -75,11 +75,11 @@ export const kanaDictionary = {
 
 		'k_group18_h': { characters: { 'カ゚': ['ŋa','nga'], 'キ゚': ['ŋi','ngi'], 'ク゚': ['ŋu','ngu'], 'ケ゚': ['ŋe','nge'], 'コ゚': ['ŋå','ngå'] } },
 		'k_group19_h': { characters: { 'サ゚': ['ꜩa','tsa'], 'シ゚': ['ꜩi','tsi'], 'ス゚': ['ꜩu','tsu'], 'セ゚': ['ꜩe','tse'], 'ソ゚': ['ꜩå','tså'] } },
-		'k_group20_h': { characters: { 'タ゚': ['ca','tsja'], 'チ゚': ['ci','tsji'], 'ツ゚': ['cu','tsju'], 'テ゚': ['ce','tsje'], 'ト゚': ['cå','tsjå'] } },
+		'k_group20_h': { characters: { 'タ゚': ['ca','tʃa','tsja'], 'チ゚': ['ci','tʃi','tsji'], 'ツ゚': ['cu','tʃu','tsju'], 'テ゚': ['ce','tʃe','tsje'], 'ト゚': ['cå','tʃå','tsjå'] } },
 		'k_group21_h': { characters: { 'パ': ['pa'], 'ピ': ['pi'], 'プ': ['pu'], 'ペ': ['pe'], 'ポ': ['på'] } },
 		'k_group22_h': { characters: { 'ラ゚': ['la'], 'リ゚': ['li'], 'ル゚': ['lu'], 'レ゚': ['le'], 'ロ゚': ['lå'] } },
 
-		'k_group23_dh': { characters: { 'ザ゚': ['ða','tha'], 'ジ゚': ['ði','thi'], 'ズ゚': ['ðu','thu'], 'ゼ゚': ['ðe','the'], 'ゾ゚': ['ðå','thå'] } },
+		'k_group23_dh': { characters: { 'ザ゚': ['ða','þa','θa','tha'], 'ジ゚': ['ði','þi','θi','thi'], 'ズ゚': ['ðu','þu','θu','thu'], 'ゼ゚': ['ðe','þe','θe','the'], 'ゾ゚': ['ðå','þå','θå','thå'] } },
 
 
 
