@@ -1,0 +1,4 @@
+text= "one two three"
+replaceable = {'one': '1', 'two': '2', 'three': '3'}
+for string, new_string in replaceable.items(): 
+    text = text.replace(string, new_string)
